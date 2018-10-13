@@ -1,0 +1,68 @@
+body {
+    background-image: url("../assets/background-img.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+/*
+.col {
+    width: 60%;
+    margin: 0 auto 0 2%;
+    background-color: #660033;
+    border-radius: 5px;
+    
+    
+} */
+
+.heading-writing {
+    color: #ffe6e6;
+    /*font-family: 'Charmonman', cursive;*/
+    font-family: 'Fredericka the Great', cursive;
+    /*font-family: 'Faster One', cursive;*/
+}
+
+@keyframes header-animation {
+    0%   {color: #660033;}
+    25%  {color: #ff1a62;}
+    50%  {color: #ffe6ee;}
+    100% {color: #4d0019;}
+}
+
+h1 {
+    font-size: 100px;
+    color: #660033;
+    font-family: 'Fredericka the Great', cursive;
+    margin-left: 30px;
+    animation-name: header-animation;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+/*h2 {
+    color: aliceblue;
+    font-family: 'Fredericka the Great', cursive;
+}*/
+
+#left-menu {
+    margin-top: 100px;
+    margin-left: 2%;
+}
+
+.menu-item {
+    width: 160px;
+    height: 50px;
+    background-color: #660033;
+    -webkit-transition: width 2s; /* Safari */
+    transition: width 2s;
+    font-size: 30px;
+    padding-left: 10px;
+}
+
+div.menu-item:hover {
+    width: 300px;
+    height: 150px;
+    font-size: 40px;
+}
+
