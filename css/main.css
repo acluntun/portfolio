@@ -1,20 +1,7 @@
 body {
     background-image: url("../assets/pattern.jpg");
-    /*background-position: center;*/
     background-repeat: repeat;
-    /*background-size: cover;
-    background-attachment: fixed;*/
 }
-
-/*
-.col {
-    width: 60%;
-    margin: 0 auto 0 2%;
-    background-color: #660033;
-    border-radius: 5px;
-    
-    
-} */
 
 #portrait {
     position: fixed;
@@ -25,9 +12,7 @@ body {
 
 .heading-writing {
     color: #ffe6e6;
-    /*font-family: 'Charmonman', cursive;*/
     font-family: 'Fredericka the Great', cursive;
-    /*font-family: 'Faster One', cursive;*/
 }
 
 @keyframes header-animation {
