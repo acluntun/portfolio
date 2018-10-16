@@ -40,14 +40,23 @@ h1 {
     animation-iteration-count: infinite;
 }
 
-/*h2 {
+h2 {
     color: aliceblue;
-    font-family: 'Fredericka the Great', cursive;
-}*/
+    font-family: 'Mate SC', serif;
+    margin: 0;
+}
+
+.par {
+    font-family: 'Cairo', sans-serif;
+    color: bisque;
+    margin: 0px 20px;;
+
+}
 
 #left-menu {
     margin-top: 100px;
     margin-left: 2%;
+    position: relative;
 }
 
 .menu-item {
@@ -64,5 +73,60 @@ div.menu-item:hover {
     width: 300px;
     height: 150px;
     font-size: 40px;
+    border-radius: 5px;
 }
 
+.right-col {
+    width: 55%;
+    background-color: #660033;
+    border-radius: 5px;
+    margin: auto 0;
+    padding: 10px;
+    float: right;
+    position: absolute;
+    right: 430px;
+    top: 0px;
+}
+
+.box {
+    background-color: #660033;
+    border-radius: 5px;
+    margin: auto 5px;
+    width: 50%;
+}
+
+.content {
+    padding-left: 20px;
+}
+
+.par-head {
+    font-size: 20px;
+    
+}
+
+.content-right-col {
+    position: relative;
+    width: 50%;
+    float: left;
+}
+
+.content-left-col {
+    position: relative;
+    width: 50%;
+    float: right;
+}
+
+.sec {
+    position: abolute;
+    float: left;
+}
+
+p {
+    margin: 0;
+}
+
+footer {
+    position: fixed;
+    bottom: 5px;
+    left: 5px;;
+}
