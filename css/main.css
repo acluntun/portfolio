@@ -46,11 +46,13 @@ h2 {
     margin: 0;
 }
 
-.par {
+.par, a {
     font-family: 'Cairo', sans-serif;
     color: bisque;
-    margin: 0px 20px;;
+}
 
+.par {
+    margin: 0px 20px;
 }
 
 #left-menu {
@@ -97,6 +99,7 @@ div.menu-item:hover {
 
 .content {
     padding-left: 20px;
+    clear: left;
 }
 
 .par-head {
@@ -104,21 +107,21 @@ div.menu-item:hover {
     
 }
 
-.content-right-col {
-    position: relative;
+.content-left-col {
+    /*position: relative;*/
     width: 50%;
     float: left;
 }
 
-.content-left-col {
-    position: relative;
+.content-right-col {
+    /*position: relative;*/
     width: 50%;
     float: right;
 }
 
 .sec {
-    position: abolute;
-    float: left;
+    position: relative;
+    display: block;
 }
 
 p {
