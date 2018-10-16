@@ -124,6 +124,10 @@ div.menu-item:hover {
     display: block;
 }
 
+.img-small {
+    width: 400px;
+}
+
 p {
     margin: 0;
 }
