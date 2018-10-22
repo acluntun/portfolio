@@ -3,9 +3,57 @@
     <head>
         <title>Areej Cluntun's Portfolio Website</title>
         <link rel="stylesheet" href="css/style.css">
+        <link href="https://fonts.googleapis.com/css?family=Julius+Sans+One" rel="stylesheet">
     </head>
-    <body>
-        
+    <body id="home-page">
+        <header>
+            <a href="#main-menu"
+                class="menu-toggle"
+                role="button"
+                id="main-menu-toggle"
+                aria-expanded="false"
+                aria-controls="main-menu"
+                aria-label="Open main menu">
+                <span class="sr-only">Open main menu</span>
+                <span class="fa fa-bars" aria-hidden="true"><div class="home-burger"></div>
+                    <div class="home-burger"></div>
+                    <div class="home-burger"></div></span>
+            </a>
+            
+            
+            
+            <nav id="main-menu"
+                class="main-menu"
+                role="navigation"
+                aria-expanded="false"
+                aria-label="Main menu">
+                <a href="#main-menu-toggle"
+                class="menu-close"
+                role="button"
+                id="main-menu-close"
+                aria-expanded="false"
+                aria-controls="main-menu"
+                aria-label="Close main menu">
+                <span class="sr-only">Close main menu</span>
+                <span class="fa fa-close" aria-hidden="true"></span>
+                </a>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html#contact">Contact</a></li>
+                    <li><a href="education.html">Education</a></li>
+                    <li><a href="experience.html">Experience</a></li>
+                    <li><a href="gallery.html">Gallery</a></li>
+                    <li><a href="about.html#resume">Resume</a></li>
+                </ul>
+            </nav>
+            <a href="#main-menu-toggle"
+                class="backdrop"
+                tabindex="-1"
+                aria-hidden="true"
+                hidden></a>
+        </header>
+        <h1 class="greeting">Hello, I am Areej Cluntun</h1>
     </body>
     <footer></footer>
 </HTML>
