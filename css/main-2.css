@@ -1,12 +1,6 @@
 body {
-    /*background-image: url("../assets/pattern.jpg");
-    background-repeat: repeat;*/
-    background: url(../assets/bg.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-    
+    background-image: url("../assets/pattern.jpg");
+    background-repeat: repeat;
 }
 
 #portrait {
@@ -87,12 +81,12 @@ div.menu-item:hover {
     /*background-color: #660033;*/
     background-color:  #660033; /*#006666;*/
     border-radius: 5px;
-    margin: auto 0;
+    margin: auto auto 200px auto;
     padding: 10px;
     float: right;
     position: absolute;
-    right: 430px;
-    top: 0px;
+    right: 350px;
+    top: 250px;
 }
 
 .box {
