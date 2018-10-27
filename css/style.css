@@ -1,6 +1,6 @@
 #home-page {
     background: url(../assets/bg.jpg);
-    background-position: center;
+    background-position: right bottom;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed;
@@ -640,9 +640,6 @@ li {
         padding: .75em 15px;
         line-height: 2em;
         font-size: 2em;
-        color: #fff;
-        text-decoration: none;
-        border-bottom: 1px solid #383838;
     }
 
     .ac-sub-text {
