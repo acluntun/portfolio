@@ -6,6 +6,8 @@
     background-attachment: fixed;
 }
 
+
+
 body {
     background-color: #000;
 }
@@ -37,6 +39,18 @@ body {
     }
     100% {
         color: #333;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    #home-page  {
+        background-position: right bottom;
+    }
+
+    .greeting {
+        width: 70%;
+        font-size: 5rem;
+        margin-left: 5%;
     }
 }
 
