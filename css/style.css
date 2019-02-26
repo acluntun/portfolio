@@ -12,6 +12,10 @@ body {
     background-color: #000;
 }
 
+.kana-img {
+    height: 450px;
+}
+
 .greeting {
     color: #000;
     font-family: 'Julius Sans One', sans-serif;
@@ -414,6 +418,10 @@ reference: stackoverflow */
 
     .img-small {
         width: 250px;
+    }
+
+    .kana-img {
+        height: 200px;
     }
 
     .menu-toggle {
